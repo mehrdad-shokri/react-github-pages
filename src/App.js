@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p data-testid={'githubPages'}>
           Deploy any static website(React, Vue, Next & Nuxt built statically, Jekyll) to Github pages with Github Actions!
         </p>
         <a
